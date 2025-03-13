@@ -1,0 +1,1 @@
+The purpose of this repository is to perform all of the same puzzles and exercises assigned in the Harvard CS50X Introduction to Computer Science course. Except in this repository, they will be complted in Rust, rather than C.
