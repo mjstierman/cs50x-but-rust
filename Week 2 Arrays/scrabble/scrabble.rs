@@ -11,6 +11,7 @@ fn main () {
     println!("Player 2 Score: {}", p2_score);
     if p1_score > p2_score { println!("Player 1 wins!"); }
     else if p2_score > p1_score { println!("Player 2 wins!"); }
+    else if p1_score == p2_score { println!("It's a tie!"); }
     else { println!("Uh oh! Something went wrong."); }
 }
 
