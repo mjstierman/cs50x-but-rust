@@ -3,11 +3,11 @@ use std::str;
 use std::str::FromStr;
 
 // Max voters and candidates
-let MAX_VOTERS: u32 = 100
-let MAX_CANDIDATES: u32 = 9
+const MAX_VOTERS: u32 = 100
+const MAX_CANDIDATES: u32 = 9
 
 // preferences[i][j] is jth preference for voter i
-int preferences[MAX_VOTERS][MAX_CANDIDATES];
+let preferences[[MAX_VOTERS; u32]; MAX_CANDIDATES] = [][];
 
 // Candidates have name, vote count, eliminated status
 struct candidate {
